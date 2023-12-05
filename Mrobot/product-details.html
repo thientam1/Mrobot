@@ -12,19 +12,27 @@
   <link href="./css/style.css" rel="stylesheet">
   <!-- Icon fontawesome -->
   <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
-   <!-- Icon boxicon -->
-   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Icon boxicon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <title>Mrobot Forum</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./js/main.js">
+  <title>Mrobot </title>
 
   </style>
 </head>
 
-<body >
+<body>
   <header>
     <nav class=" navbar navbar-expand-md container ">
       <svg width="165" height="50" viewBox="0 0 165 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,9 +76,9 @@
             <a href="#" class="mx-2 dropbtn ">Demo Sites</a>
             <div class="dropdown-content">
               <a href="./basic-site.html">Basic Site</a>
-              <a href="#">Automation Practice Site</a>
-              <a href="#">Automation Actions Site</a>
-              <a href="">Ecommerce Site</a>
+              <a href="./Automation-Practice-Site.html">Automation Practice Site</a>
+              <a href="./Automation-Actions-Site.html">Automation Actions Site</a>
+              <a href="./Ecommerce-Site.html">Ecommerce Site</a>
             </div>
           </li>
         </ul>
@@ -219,191 +227,215 @@
       </div>
     </nav>
     <div class="page-title">
-      <h1><b>FORUM</b></h1>
-    </div>
-    <div class="forum-banner ">
-      <div class="forum-search ">
-        <input type="text" class="w-50" placeholder="Enter your question">
-        <button class="btn btn-primary btn-lg btn-block">Search</button>
-      </div>
-        
+      <h1><b>ECOMMERCE SITE</b></h1>
     </div>
   </header>
-  <main class="container forum-page ">
-    <div class="row">
-      <article class="col-lg-9">
-        <section>
-          <header class="row">
-            <h3 class="col-lg-9"><b style="color: black;">CATEGORIY</b>  Q & A WITH OUR TEST AUTOMATION ARCHITECT TEAM</h3>
-            <button class="btn btn-primary btn-lg btn-block col-lg-3" data-bs-toggle="modal"
-            data-bs-target="#AskQuestionModal">Ask Question</button>
-            <div class="modal fade" id="AskQuestionModal" tabindex="-1" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content modal-sigin-out">
-                  <!--Ask Question form -->
-                  <form action="">
-                    <div class="modal-header">
-                      <h5 class="modal-title">Select the question category</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="mb-3  ">
-                        <label for="">1. Special catalog, you will be expertly answered by our experts.</label>
-                        <a href="./Forum-Ask-a-question.html" class="btn btn-primary btn-lg btn-block w-100" style="color: white;">Q & A with Our Test Automation Architect team</a>
-                      </div>
-                      <div class="mb-3 ">
-                        <label for="">2. Free catalogory, you can ask all questions here. No login required..</label>
-                        <a href="" class="btn btn-dark btn-lg btn-block w-100" style="color: white;">General Discussion</a>
-                      </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </header>
-          <hr class="underlined">
-        </section>
-        <section>
-          <header class="space-bt">
-            <p class="gray">TOTAL QUESTION: <b class="blue">60</b></p>
-            <div class="btn-group">
-              <button type="button" class="btn btn-outline-primary active">Newest</button>
-              <button type="button" class="btn btn-outline-primary">Answers</button>
-              <button type="button" class="btn btn-outline-primary">Views</button>
-              <button type="button" class="btn btn-outline-primary">Asked by</button>
-            </div>
-          </header>
-        </section>
-        <section>
-          <a href="Forum-anwser.html"><div class="question-group">
-            <div class="row">
-              <div class="col-md-1">
-                <img src="./anh/Question No.svg" alt="">
-                <h5 style="color: white;">0</h5>
-              </div>
-              <div class="col-md-10" >
-                <h4 class="blue">Do you see this question? Q & A with our Test Automation Architect team</h4>
-                <b >To start your self-learning, you need to learn for free on the internet. Its recommendations are based on a review of
-                  the existing academic literature which is complemented by the analysis of numerous contributions by software
-                  developers, self-learners, and teachers of programming.</b>
-                  <br>
-                <div class="space-bt" style="margin-top: 20px;">
-                  <p class="gray">Asked in: <b class="blue">Selenium</b></p>
-                  <p class="gray">Asked in: <b class="blue">Thao Le</b></p>
-                  <p class="gray">Asked on: January 30, 2020</p>
-                </div>
-              </div>
-              <div class="col-md-1 question-group-right">
-                <h3 style="color: #00BC23;">18</h3>
-                <label for="">Votes</label>
-                <div class="Answer-number">
-                  <h3>2</h3>
-                  <p class="blue">Answer</p>
-                </div>           
-                <p>3k view</p>
-              </div>
-            </div>
-          </div>
-        </a>
-          <div class="question-group">
-            <div class="row">
-              <div class="col-md-1">
-                <img src="./anh/Question No.svg" alt="">
-                <h5 style="color: white;">0</h5>
-              </div>
-              <div class="col-md-10" >
-                <h4 class="blue">Do you see this question? Q & A with our Test Automation Architect team</h4>
-                <b >To start your self-learning, you need to learn for free on the internet. Its recommendations are based on a review of
-                  the existing academic literature which is complemented by the analysis of numerous contributions by software
-                  developers, self-learners, and teachers of programming.</b>
-                  <br>
-                <div class="space-bt" style="margin-top: 20px;">
-                  <p class="gray">Asked in: <b class="blue">Selenium</b></p>
-                  <p class="gray">Asked in: <b class="blue">Thao Le</b></p>
-                  <p class="gray">Asked on: January 30, 2020</p>
-                </div>
-              </div>
-              <div class="col-md-1 question-group-right">
-                <h3 style="color: #00BC23;">18</h3>
-                <label for="">Votes</label>
-                <div class="Answer-number">
-                  <h3>2</h3>
-                  <p class="blue">Answer</p>
-                </div>           
-                <p>3k view</p>
-              </div>
-            </div>
-          </div>
-          <div class="question-group">
-            <div class="row">
-              <div class="col-md-1">
-                <img src="./anh/Question No.svg" alt="">
-                <h5 style="color: white;">0</h5>
-              </div>
-              <div class="col-md-10" >
-                <h4 class="blue">Do you see this question? Q & A with our Test Automation Architect team</h4>
-                <b >To start your self-learning, you need to learn for free on the internet. Its recommendations are based on a review of
-                  the existing academic literature which is complemented by the analysis of numerous contributions by software
-                  developers, self-learners, and teachers of programming.</b>
-                  <br>
-                <div class="space-bt" style="margin-top: 20px;">
-                  <p class="gray">Asked in: <b class="blue">Selenium</b></p>
-                  <p class="gray">Asked in: <b class="blue">Thao Le</b></p>
-                  <p class="gray">Asked on: January 30, 2020</p>
-                </div>
-              </div>
-              <div class="col-md-1 question-group-right">
-                <h3 style="color: #00BC23;">18</h3>
-                <label for="">Votes</label>
-                <div class="Answer-number">
-                  <h3>2</h3>
-                  <p class="blue">Answer</p>
-                </div>           
-                <p>3k view</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="space-bt">
-          <ul class="pagination" style="align-items: center;">
-            <li class="page-item active"><a class="page-link" href="#">15</a></li>
-            <li class="page-item "><a class="page-link" href="#">30</a></li>
-            <li class="page-item"><a class="page-link" href="#">50</a></li>
-            <li class="page-item gray" style="padding: 0.375rem 0.75rem;">Per page</li>
-          </ul>
-          <ul class="pagination">
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item "><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-          </ul>
+  <main class="container">
+    <article class=" row" style="padding: 50px;">
+      <section class="space-bt">
+        <ul>
+          <li><a href="./mrobot_index.html" class="blue">home</a></li>
+          <li><i class="fa-solid fa-chevron-right" style="color: #C0C4D1"> </i></li>
+          <li>Samsung Galaxy S8 Plus</li>
+        </ul>
+        <div>
+          <p>Need Help Ordering?</p>
+          <p><i class="fa-solid fa-phone blue"></i>+235 793-891-7938</p>
         </div>
-      </article>
-      <aside class="col-lg-3" style="margin-top: 50px;">
-        <h3 class="black">TOTAL QUESTION: 72</h3>
-        <hr class="underlined">
-        <section style="margin-top: 100px;">
-          <h3 class="black">CATEGORIES</h3>
-          <hr class="underlined">
-          <div class="space-bt">
-            <div><div class="box-number"><p>60</p></div></div> 
-            <a href="" class="active"><b>Q & A with our Test Automation Architect team</b></a>
+      </section>
+      <section class="row">
+        <div class="col-lg-4 pb-5 center" style="border: 1px solid #EDEEF4">
+          <img src="./anh/product/Samsung Galaxy S8 Plus.png" alt="">
+        </div>
+        <div class="col-lg-7 pb-5">
+          <h3>Samsung Galaxy S8 Plus</h3>
+          <div class="d-flex mb-3">
+            <div class="product-star mr-2">
+              <small class="fas fa-star"></small>
+              <small class="fas fa-star"></small>
+              <small class="fas fa-star"></small>
+              <small class="fas fa-star-half-alt"></small>
+              <small class="far fa-star"></small>
+            </div>
+            <small class="pt-1 mx-2"> 6376</small>
           </div>
-          <hr class="underlined">
-          <div >
-            <label for="" class="box-number">12</label>
-            <a href="" class="active"><b>General discussion</b></a>
+          <p>The Galaxy S8 expansive display stretches from edge to edge, giving you the most amount of screen in the
+            least amount
+            of space. And the Galaxy S8+ is even more expansive — our biggest screen yet.¹</p>
+          <label for="" style="margin-top: 50px;"><b>Quantity</b></label>
+          <div>
+            <input type="number" min="0" class="form-control" style="width: 150px;">
           </div>
-          <hr class="underlined">
-        </section>
-        <section class="banner">
-          <a href=""><img src="./anh/Rectangle.png" alt=""></a>
-        <a href=""><img src="./anh/Rectangle (1).png" alt=""></a>
-        <a href=""><img src="./anh/Rectangle (2).png" alt=""></a>
-        <a href=""><img src="./anh/Rectangle (3).png" alt=""></a>
-        </section>
-      </aside>
-    </div>
-    
+          <h3 style="margin-top: 20px; margin-bottom: 20px;">$649.99</h3>
+          <button class="btn btn-primary btn-lg btn-block">Add to cart<i class="fa-solid fa-chevron-right px-2"
+              style="color: white"> </i></button>
+        </div>
+      </section>
+
+      <section class="container" style="border: 1px solid #EBEBEB">
+        <div class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="tablinks nav-link active" onclick="openCity(event, 'Description')">Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link tablinks" onclick="openCity(event, 'Review')">Reviews(2)</a>
+          </li>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Description" class="tabcontent" style="display: block;">
+          <p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The
+            same is true
+            as we experience in emotional sensation of stress from our first instances of social rejection ridicule. We
+            quickly
+            learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most
+            common of
+            all making mistakes.
+          </p>
+        </div>
+
+        <div id="Review" class="tabcontent">
+          <p>There are no reviews yet. <br>
+            Be the first to review “Galaxy Galaxy S8” <br>
+            Your email address will not be published. Required fields are marked *
+          </p>
+          <form action="">
+            <div class="d-flex">
+              <p>
+              <h5 class="black">Your Rating</h5>: <span class="star-rating">
+                <label for="rate-1" style="--i:1"><i class="fa-regular fa-star"></i></label>
+                <input type="radio" name="rating" id="rate-1" value="1">
+                <label for="rate-2" style="--i:2"><i class="fa-regular fa-star"></i></label>
+                <input type="radio" name="rating" id="rate-2" value="2" checked>
+                <label for="rate-3" style="--i:3"><i class="fa-regular fa-star"></i></label>
+                <input type="radio" name="rating" id="rate-3" value="3">
+                <label for="rate-4" style="--i:4"><i class="fa-regular fa-star"></i></label>
+                <input type="radio" name="rating" id="rate-4" value="4">
+                <label for="rate-5" style="--i:5"><i class="fa-regular fa-star"></i></label>
+                <input type="radio" name="rating" id="rate-5" value="5">
+              </span></p>
+            </div>
+            <textarea class="w-100 form-control mb-3" id="" cols="30" rows="10" placeholder="Your Review*"
+              style="height: 80px;"></textarea>
+            <div class="d-flex">
+              <input type="text" class="form-control " placeholder="Name*">
+              <input type="text" class="form-control mx-sm-3" placeholder="Email*">
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+          <div class="mb-3">
+            <div class="product-cmt container">
+              <div class="space-bt">
+                <ul class="d-flex">
+                  <li><img src="./anh/Frieren.png" alt="" style="width: 16px; height: 16px;"></li>
+                  <li>
+                    <h5>Critical Skeptic</h5>
+                    </l>
+                </ul>
+                <div class="product-star mr-2">
+                  <small class="fas fa-star"></small>
+                  <small class="fas fa-star"></small>
+                  <small class="fas fa-star"></small>
+                  <small class="fas fa-star-half-alt"></small>
+                  <small class="far fa-star"></small>
+                </div>
+              </div>
+              <p>Excellent phone, beautiful aesthetics, and a taste of the future worth paying for: 9/10.</p>
+            </div>
+            <div class="product-cmt container">
+              <div class="space-bt">
+                <ul class="d-flex">
+                  <li><img src="./anh/Frieren.png" alt="" style="width: 16px; height: 16px;"></li>
+                  <li>
+                    <h5>Critical Skeptic</h5>
+                    </l>
+                </ul>
+                <div class="product-star mr-2">
+                  <small class="fas fa-star"></small>
+                  <small class="fas fa-star"></small>
+                  <small class="fas fa-star"></small>
+                  <small class="fas fa-star-half-alt"></small>
+                  <small class="far fa-star"></small>
+                </div>
+              </div>
+              <p>Excellent phone, beautiful aesthetics, and a taste of the future worth paying for: 9/10.</p>
+            </div>
+          </div>        
+        </div>
+      </section>
+      <section style="margin-top: 50px;">
+          <h4>Related Products</h4>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class=" product-item">
+              <div class="product-item-header">
+                <img src="./anh/product/Samsung Galaxy S9.png" alt="">
+              </div>
+              <div class="product-item-body">
+                <h5 class="black">Samsung Galaxy S9</h5>
+                <p>$100</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class=" product-item">
+              <div class="product-item-header">
+                <img src="./anh/product/Samsung Galaxy S9 Plus.png" alt="">
+              </div>
+              <div class="product-item-body">
+                <h5 class="black">Samsung Galaxy S9 Plus</h5>
+                <p>$100</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class=" product-item">
+              <div class="product-item-header">
+                <img src="./anh/product/iPhone X.png" alt="">
+              </div>
+              <div class="product-item-body">
+                <h5 class="black">iPhone X</h5>
+                <p>$100</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class=" product-item">
+              <div class="product-item-header">
+                <img src="./anh/product/iPhone XR.png" alt="">
+              </div>
+              <div class="product-item-body">
+                <h5 class="black">iPhone XR</h5>
+                <p>$100</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class=" product-item">
+              <div class="product-item-header">
+                <img src="./anh/product/iPhone XS.png" alt="">
+              </div>
+              <div class="product-item-body">
+                <h5 class="black">iPhone XS</h5>
+                <p>$100</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class=" product-item">
+              <div class="product-item-header">
+                <img src="./anh/product/iPhone XS Max.png" alt="">
+              </div>
+              <div class="product-item-body">
+                <h5 class="black">iPhone XS Max</h5>
+                <p>$100</p>
+              </div>
+            </div>
+          </div>  
+      </div>
+      </section>
+    </article >
+
   </main>
   <footer class="footer">
     <div class="container">
@@ -463,6 +495,11 @@
 
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- captcha -->
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <!-- Boxicon -->
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <!-- Optional JavaScript; choose one of the two! -->
@@ -475,13 +512,32 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-    
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
 </body>
 
 </html>
