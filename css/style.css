@@ -873,4 +873,9 @@ footer{
       padding: 0;
     }
 }
+@media(max-width: 700px){
+    .tutorial{
+        display: none;
+    }
+}
 
